@@ -12,8 +12,10 @@ public class Countries {
     public static void main(String[] args) throws Exception{
 
         buildHashMap();
-        System.out.println("Please input a letter:");
-        writeFile(scanner.nextLine());
+        while (true) {
+            System.out.println("Please input a letter:");
+            writeFile(scanner.nextLine());
+        }
 
     }
 
